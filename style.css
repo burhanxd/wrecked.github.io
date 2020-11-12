@@ -50,7 +50,7 @@ body {
 
 .navbar-links ul {
     display: flex;
-    margin: 0;
+    top: 10px;
     padding: 4px;
 }
 
