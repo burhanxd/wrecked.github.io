@@ -16,13 +16,14 @@ body {
 .navbar {
     display: flex;
     position: relative;
+    margin-bottom: 5px;
     justify-content: space-between;
     align-items: center;
     background-color: #191919;
     transition: 0.4s;
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 80px;
     top: 0;
     z-index: 99;
 }
@@ -73,7 +74,7 @@ body {
 }
 .toggle-button {
     position: absolute;
-    top: .75rem;
+    top: 29px;
     right: 1rem;
     display: none;
     flex-direction: column;
