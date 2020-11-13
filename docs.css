@@ -50,7 +50,7 @@ body {
 
 .navbar-links ul {
     display: flex;
-    top: 10px;
+    margin: 0;
     padding: 4px;
 }
 
@@ -88,97 +88,30 @@ body {
     background-color: white;
     border-radius: 10px;
 }
-/* Body Styling */
-.home h2 {
-    color: #fff;
-    margin-top: 130px;
-    margin-left: 30px;
+.cmdtables h2 {
+	color: #1CADB6;
+	margin-top: 80px;
 }
-.home h2.active {
-    margin-top: -37px;
-    margin-left: 170px;
-    color: #1CADB6;
+h2.admin {
+	color: #1CADB6;
+	margin-top: 30px;
 }
-.border {
-    color: #fff;
-    border: 1px solid #fff;
-    margin-left: 27px;
-    width: 20%;
-}
-p.disc {
-    color: #fff;
-    margin-left: 27px;
-    font-size: 16px;
-    padding: 3px;
+table {
+  border-collapse: collapse;
+  margin-top: 30px;
+  border-spacing: 0;
+  color: #1CADB6;
+  width: 50%;
+  border: 1px solid #1CADB6;
 }
 
-.addToDiscord a {
-    color: #141414;
-    text-decoration: none;
-    font-size: 13px;
-    margin-left: 27px;
-    background-color: #1CADB6;
-    padding: 8px 10px;
-    border-radius: 20px;
-    margin-right: -10px;
-    border: 1px solid #fff;
+th, td {
+  text-align: left;
+  padding: 16px;
 }
-.addToDiscord a:hover {
-    color: #1CADB6;
-    background-color: #191919;
-    border: 1px solid #1CADB6;
-    transition: 0.2s;
-}
-.aboutBot {
-    margin-top: 100px;
-    background-color: #191919;
-    height: 220px;
-}
-.aboutBot h2 {
-    color: #fff;
-    margin-left: 100px;
-}
-.border1 {
-    color: #fff;
-    border: 1px solid #fff;
-    margin-left: 100px;
-    width: 20%;
-}
-p.about {
-    color: #fff;
-    font-size: 16px;
-    margin-left: 100px;
-}
-.music {
-    height: 300px;
-    margin-top: 20px;
-}
-p.border2{
-    color: #fff;
-    border: 1px solid #fff;
-    width: 20%;
-    float: left;
-    margin-top: 60px;
-    margin-left: -100px;
-}
-.music h2 {
-    float: left;
-    margin-top: 20px;
-    margin-left:100px;
-    color: #1CADB6;
-}
-p.musicdisc{
-    float: left;
-    margin-left: -280px;
-    margin-top: 80px;
-    font-size: 16px;
-    color: #fff;
-}
-footer p {
-    color: #fff;
-    margin-top: 10px;
-    font-size: 12px;
-    margin-left: 5px;
+
+tr:nth-child(even) {
+  background-color: #191919;
 }
 .to-top {
     background: white;
@@ -204,8 +137,13 @@ footer p {
     pointer-events: auto;
     opacity: 1;
 }
-/* I am not too good at responsiveness so ignore peeps */
- @media only screen and (max-width: 560px) {
+footer p {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+@media only screen and (max-width: 560px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -233,44 +171,4 @@ footer p {
     .navbar-links.active {
         display: flex;
     }
-  .home h2 {
-    margin-left: 50px;
-  }
-  .home h2.active {
-    margin-left: 195px;
-  }
-  .border {
-    width: 44%;
-  }
-  .border1 {
-    width: 44%;
-    margin-left: 10px;
-  }
-  .about {
-    margin-top: 10px;
-  }
-  .aboutBot h2 {
-    margin-top: 5px;
-    margin-left: 10px;
-  }
-  p.about {
-    margin-left: 10px;
-  }
-  .brand-title p.active {
-    margin-left: 10px;
-}
-.music h2 {
-    margin-left: 20px;
-    margin-top: 20px;
-}
-.border2 {
-    width: 44%;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-p.musicdisc {
-    margin-left: 30px;
-    margin-top: 13px;
-}
-
 }
