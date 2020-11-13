@@ -147,8 +147,9 @@ p.disc {
 }
 p.about {
     color: #fff;
+    padding: 10px;
+    margin: 5px;
     font-size: 16px;
-    margin-left: 100px;
 }
 .music {
     height: 300px;
@@ -174,6 +175,8 @@ p.musicdisc{
     margin-top: 80px;
     font-size: 16px;
     color: #fff;
+    padding: 10px;
+    margin: 5px;
 }
 footer p {
     color: #fff;
