@@ -19,7 +19,7 @@ body {
     margin-bottom: 5px;
     justify-content: space-between;
     align-items: center;
-    background-color: #191919;
+    background-color: #1cadb6;
     transition: 0.4s;
     position: fixed;
     width: 100%;
@@ -34,7 +34,7 @@ body {
 }
 
 .brand-title p.active {
-    color: #1CADB6;
+    color: #000000;
     margin-left: 80px;
     margin-top: 30px;
 }
