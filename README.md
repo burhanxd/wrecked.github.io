@@ -12,6 +12,6 @@
 
 ### To add the bot :
 
-~ <a href="https://is.gd/JWMJoa" target="_blank"> Add Wrecked Bot </a>
+~ <a href="https://discord.com/api/oauth2/authorize?client_id=773440427306123266&permissions=8&redirect_uri=https%3A%2F%2Fburhanxd.github.io%2Fwrecked.github.io&scope=bot" target="_blank"> Add Wrecked Bot </a>
 
 ### My Discord Id ~ Burhan xD #1112
