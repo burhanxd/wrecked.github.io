@@ -16,4 +16,4 @@
 
 ### My Discord Id ~ Burhan xD #1112
 
-<a href="https://instagram.com/burhan__xd" target="_blank">Instagram</a> ~ <a href="https://twitter.com/burhan__xd" target="_blank">Twitter</a>
+<a href="https://instagram.com/burhan__xd" target="_blank">Instagram</a> ~ <a href="https://twitter.com/burhan__xd" target="_blank">Twitter</a> ~ <a href="https://linkedin.com/in/burhan-chhotaudepur" target="_blank">LinkedIn</a>
